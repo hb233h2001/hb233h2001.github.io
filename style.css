@@ -10,6 +10,12 @@ body {
     background-color: #f0f0f0;
     height: 100vh;
     margin: 0;
+        /* 배율을 150%로 설정합니다. */
+        transform: scale(1.5);
+        /* 변환의 기준점을 좌측 상단으로 설정하여 중앙 정렬합니다. */
+        transform-origin: 0 0;
+        /* 브라우저의 확대/축소 기능을 비활성화합니다. */
+        zoom: 1.5;
   }
 .main-nav {
     display: flex;
